@@ -1,0 +1,185 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "STATEFP" : "STATEFP",
+    "COUNTYFP" : "COUNTYFP",
+    "COUNTYNS" : "COUNTYNS",
+    "CNTYGEOID" : "CNTYGEOID",
+    "CNTYNAME" : "CNTYNAME",
+    "CNTYNAMELS" : "CNTYNAMELS",
+    "LSAD" : "LSAD",
+    "CLASSFP" : "CLASSFP",
+    "MTFCC" : "MTFCC",
+    "CSAFP" : "CSAFP",
+    "CBSAFP" : "CBSAFP",
+    "METDIVFP" : "METDIVFP",
+    "FUNCSTAT" : "FUNCSTAT",
+    "ALAND" : "ALAND",
+    "AWATER" : "AWATER",
+    "INTPTLAT" : "INTPTLAT",
+    "INTPTLON" : "INTPTLON"
+  },
+  "geometryType" : "esriGeometryPolygon",
+  "spatialReference" : {
+    "wkid" : 4269,
+    "latestWkid" : 4269
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "STATEFP",
+      "type" : "esriFieldTypeString",
+      "alias" : "STATEFP",
+      "length" : 2
+    },
+    {
+      "name" : "COUNTYFP",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTYFP",
+      "length" : 3
+    },
+    {
+      "name" : "COUNTYNS",
+      "type" : "esriFieldTypeString",
+      "alias" : "COUNTYNS",
+      "length" : 8
+    },
+    {
+      "name" : "CNTYGEOID",
+      "type" : "esriFieldTypeString",
+      "alias" : "CNTYGEOID",
+      "length" : 5
+    },
+    {
+      "name" : "CNTYNAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "CNTYNAME",
+      "length" : 100
+    },
+    {
+      "name" : "CNTYNAMELS",
+      "type" : "esriFieldTypeString",
+      "alias" : "CNTYNAMELS",
+      "length" : 100
+    },
+    {
+      "name" : "LSAD",
+      "type" : "esriFieldTypeString",
+      "alias" : "LSAD",
+      "length" : 2
+    },
+    {
+      "name" : "CLASSFP",
+      "type" : "esriFieldTypeString",
+      "alias" : "CLASSFP",
+      "length" : 2
+    },
+    {
+      "name" : "MTFCC",
+      "type" : "esriFieldTypeString",
+      "alias" : "MTFCC",
+      "length" : 5
+    },
+    {
+      "name" : "CSAFP",
+      "type" : "esriFieldTypeString",
+      "alias" : "CSAFP",
+      "length" : 3
+    },
+    {
+      "name" : "CBSAFP",
+      "type" : "esriFieldTypeString",
+      "alias" : "CBSAFP",
+      "length" : 5
+    },
+    {
+      "name" : "METDIVFP",
+      "type" : "esriFieldTypeString",
+      "alias" : "METDIVFP",
+      "length" : 5
+    },
+    {
+      "name" : "FUNCSTAT",
+      "type" : "esriFieldTypeString",
+      "alias" : "FUNCSTAT",
+      "length" : 1
+    },
+    {
+      "name" : "ALAND",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "ALAND"
+    },
+    {
+      "name" : "AWATER",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "AWATER"
+    },
+    {
+      "name" : "INTPTLAT",
+      "type" : "esriFieldTypeString",
+      "alias" : "INTPTLAT",
+      "length" : 11
+    },
+    {
+      "name" : "INTPTLON",
+      "type" : "esriFieldTypeString",
+      "alias" : "INTPTLON",
+      "length" : 12
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "STATEFP" : "12",
+        "COUNTYFP" : "011",
+        "COUNTYNS" : "00295753",
+        "CNTYGEOID" : "12011",
+        "CNTYNAME" : "Broward",
+        "CNTYNAMELS" : "Broward County",
+        "LSAD" : "06",
+        "CLASSFP" : "H1",
+        "MTFCC" : "G4020",
+        "CSAFP" : "370",
+        "CBSAFP" : "33100",
+        "METDIVFP" : "22744",
+        "FUNCSTAT" : "A",
+        "ALAND" : 3126537188,
+        "AWATER" : 299676732,
+        "INTPTLAT" : "+26.1935353",
+        "INTPTLON" : "-080.4766834"
+      },
+      "geometry" : {
+        "rings" : [
+          [
+            [
+              -80.38205211238278,
+              26.096148892930529
+            ],
+            [
+              -80.387168036384907,
+              26.096148892930529
+            ],
+            [
+              -80.387168036384907,
+              26.098819872027448
+            ],
+            [
+              -80.38205211238278,
+              26.098819872027448
+            ],
+            [
+              -80.38205211238278,
+              26.096148892930529
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
